@@ -9,7 +9,9 @@ import {
   Loader2, 
   ArrowRight,
   Clock,
-  MapPin
+  MapPin,
+  ExternalLink,
+  Navigation
 } from 'lucide-react';
 
 export default function ConsultationModal({ isOpen, onClose, initialService, initialIndustry }) {
@@ -422,14 +424,28 @@ export default function ConsultationModal({ isOpen, onClose, initialService, ini
 
               {/* Office Locations Strip */}
               <div className="pt-3 border-t border-slate-800/80 text-[11px] text-slate-400 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-2 font-mono">
-                <div className="flex items-center gap-1.5">
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=No+48+Sentamizh+Nagar+4th+street+Tindivanam+Tamil+Nadu+604001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 hover:text-cyan-400 transition-colors group/loc"
+                  title="Get Directions to Tindivanam Office on Google Maps"
+                >
                   <MapPin className="w-3.5 h-3.5 text-cyan-400 flex-shrink-0" />
                   <span><strong>Tindivanam:</strong> No 48 Sentamizh Nagar 4th St (604001)</span>
-                </div>
-                <div className="flex items-center gap-1.5">
+                  <ExternalLink className="w-2.5 h-2.5 opacity-60 group-hover/loc:opacity-100 transition-opacity" />
+                </a>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Rajaji+Nagar+4th+Cross+Krishnagiri+Tamil+Nadu+635001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-1.5 hover:text-indigo-400 transition-colors group/loc"
+                  title="Get Directions to Krishnagiri Office on Google Maps"
+                >
                   <MapPin className="w-3.5 h-3.5 text-indigo-400 flex-shrink-0" />
                   <span><strong>Krishnagiri:</strong> Rajaji Nagar 4th Cross (635001)</span>
-                </div>
+                  <ExternalLink className="w-2.5 h-2.5 opacity-60 group-hover/loc:opacity-100 transition-opacity" />
+                </a>
               </div>
             </form>
           </div>

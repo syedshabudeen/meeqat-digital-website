@@ -6,7 +6,9 @@ import {
   MapPin, 
   ShieldCheck, 
   MessageSquare,
-  ArrowRight
+  ArrowRight,
+  Navigation,
+  ExternalLink
 } from 'lucide-react';
 
 export default function Footer({ onOpenConsultation }) {
@@ -111,6 +113,16 @@ export default function Footer({ onOpenConsultation }) {
                 <p className="text-slate-400 text-[11.5px] font-sans leading-relaxed">
                   No 48 Sentamizh Nagar, 4th Street,<br />Tindivanam - 604001, Tamil Nadu, India
                 </p>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=No+48+Sentamizh+Nagar+4th+street+Tindivanam+Tamil+Nadu+604001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-2.5 px-2.5 py-1.5 rounded-lg bg-cyan-950/50 hover:bg-cyan-900/60 border border-cyan-800/50 hover:border-cyan-500/60 text-cyan-300 hover:text-white text-[11px] font-mono transition-all group/btn"
+                >
+                  <Navigation className="w-3 h-3 text-cyan-400 group-hover/btn:translate-x-0.5 transition-transform" />
+                  <span>Get Directions (Google Maps)</span>
+                  <ExternalLink className="w-2.5 h-2.5 text-cyan-400/70" />
+                </a>
               </div>
 
               {/* Location 2: Krishnagiri */}
@@ -127,6 +139,16 @@ export default function Footer({ onOpenConsultation }) {
                 <p className="text-slate-400 text-[11.5px] font-sans leading-relaxed">
                   Rajaji Nagar 4th Cross,<br />Krishnagiri - 635001, Tamil Nadu, India
                 </p>
+                <a
+                  href="https://www.google.com/maps/dir/?api=1&destination=Rajaji+Nagar+4th+Cross+Krishnagiri+Tamil+Nadu+635001"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 mt-2.5 px-2.5 py-1.5 rounded-lg bg-indigo-950/50 hover:bg-indigo-900/60 border border-indigo-800/50 hover:border-indigo-500/60 text-indigo-300 hover:text-white text-[11px] font-mono transition-all group/btn"
+                >
+                  <Navigation className="w-3 h-3 text-indigo-400 group-hover/btn:translate-x-0.5 transition-transform" />
+                  <span>Get Directions (Google Maps)</span>
+                  <ExternalLink className="w-2.5 h-2.5 text-indigo-400/70" />
+                </a>
               </div>
             </div>
 
