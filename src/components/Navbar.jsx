@@ -19,6 +19,7 @@ export default function Navbar({ onOpenConsultation }) {
     { label: 'Case Studies', href: '#case-studies' },
     { label: 'Enterprise Impact', href: '#metrics' },
     { label: 'Why Us', href: '#why-us' },
+    { label: 'FAQ', href: '#faq' },
   ];
 
   return (

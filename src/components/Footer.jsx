@@ -219,6 +219,7 @@ export default function Footer({ onOpenConsultation }) {
             <a href="#services" className="hover:text-slate-300">Architecture Services</a>
             <a href="#case-studies" className="hover:text-slate-300">Case Studies</a>
             <a href="#why-us" className="hover:text-slate-300">SLA Guarantees</a>
+            <a href="#faq" className="hover:text-cyan-400 transition-colors">FAQ</a>
             <a
               href="https://wa.me/919629047680"
               target="_blank"

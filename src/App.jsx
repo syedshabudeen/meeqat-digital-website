@@ -6,6 +6,7 @@ import Services from './components/Services';
 import Industries from './components/Industries';
 import CaseStudies from './components/CaseStudies';
 import WhyUs from './components/WhyUs';
+import FAQ from './components/FAQ';
 import Footer from './components/Footer';
 import ConsultationModal from './components/ConsultationModal';
 
@@ -50,6 +51,9 @@ export default function App() {
 
         {/* Why Meeqat Technologies / Enterprise Advantage */}
         <WhyUs onOpenConsultation={() => openConsultation()} />
+
+        {/* Frequently Asked Questions (FAQ) for AI Search, SEO & Due Diligence */}
+        <FAQ onOpenConsultation={() => openConsultation()} />
       </main>
 
       {/* Enterprise Footer */}
