@@ -54,7 +54,7 @@ export default function WhyUs({ onOpenConsultation }) {
             <span>The Enterprise Advantage</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Why Enterprise Leaders Partner with Meeqattechnology
+            Why Enterprise Leaders Partner with Meeqat Technologies
           </h2>
           <p className="text-base sm:text-lg text-slate-400">
             We don’t just deploy software; we engineer resilient, scalable foundation systems that unlock engineering velocity and eliminate operational downtime.

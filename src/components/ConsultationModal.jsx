@@ -82,7 +82,7 @@ export default function ConsultationModal({ isOpen, onClose, initialService, ini
 
   const getWhatsAppMessageUrl = () => {
     const text = encodeURIComponent(
-      `Hello Meeqattechnology, I would like to schedule an IT Consulting session.\n\n` +
+      `Hello Meeqat Technologies, I would like to schedule an IT Consulting session.\n\n` +
       `*Name:* ${formData.name}\n` +
       `*Company:* ${formData.company || 'N/A'}\n` +
       `*Service:* ${formData.service || 'General IT Consulting'}\n` +

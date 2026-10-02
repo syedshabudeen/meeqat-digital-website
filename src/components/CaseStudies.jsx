@@ -136,7 +136,7 @@ export default function CaseStudies({ onOpenConsultation }) {
 
                 <div className="p-4 rounded-xl bg-slate-950/60 border border-slate-800/80">
                   <div className="text-xs font-mono font-semibold text-cyan-400 uppercase tracking-wider mb-1">
-                    The Meeqat Solution
+                    The Meeqat Technologies Solution
                   </div>
                   <p className="text-sm text-slate-300 leading-relaxed">
                     {activeCase.solution}

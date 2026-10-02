@@ -1,4 +1,4 @@
-# Meeqattechnology — Enterprise IT Consulting Website
+# Meeqat Technologies — Enterprise IT Consulting Website
 
 A modern, responsive, high-performance single-page IT Consulting application built with **React**, **Vite**, **Tailwind CSS**, and **Lucide Icons**. 
 

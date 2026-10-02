@@ -36,7 +36,7 @@ export default function Navbar({ onOpenConsultation }) {
             <div className="relative flex items-center justify-center w-11 h-11 rounded-xl bg-slate-900/90 border border-cyan-500/30 group-hover:border-cyan-400/80 p-1.5 transition-all duration-300 shadow-lg shadow-cyan-500/10 group-hover:shadow-cyan-500/25">
               <img
                 src="/assets/meeqat-emblem.png"
-                alt="Meeqat Technology Brand Logo"
+                alt="Meeqat Technologies Brand Logo"
                 className="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_0_8px_rgba(6,182,212,0.4)]"
               />
               <div className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-cyan-400 animate-ping opacity-75" />
@@ -46,7 +46,7 @@ export default function Navbar({ onOpenConsultation }) {
               <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1.5 font-sans">
                 MEEQAT
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 font-extrabold tracking-wider">
-                  TECHNOLOGY
+                  TECHNOLOGIES
                 </span>
               </span>
               <span className="text-[9.5px] uppercase tracking-widest text-slate-400 font-mono flex items-center gap-1.5">

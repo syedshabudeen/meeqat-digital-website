@@ -48,7 +48,7 @@ export default function App() {
         {/* Client Case Studies with Quantifiable Results */}
         <CaseStudies onOpenConsultation={(caseContext) => openConsultation(caseContext)} />
 
-        {/* Why Meeqattechnology / Enterprise Advantage */}
+        {/* Why Meeqat Technologies / Enterprise Advantage */}
         <WhyUs onOpenConsultation={() => openConsultation()} />
       </main>
 

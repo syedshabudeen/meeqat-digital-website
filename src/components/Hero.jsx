@@ -56,7 +56,7 @@ export default function Hero({ onOpenConsultation }) {
 
             {/* Subtitle */}
             <p className="text-lg sm:text-xl text-slate-300 mb-8 max-w-2xl font-normal leading-relaxed">
-              <strong className="text-white font-medium">Meeqattechnology</strong> delivers full-lifecycle IT engineering. From zero-downtime Cloud Migrations and GitOps automation to custom web, mobile, and 24/7 enterprise infrastructure maintenance.
+              <strong className="text-white font-medium">Meeqat Technologies</strong> delivers full-lifecycle IT engineering. From zero-downtime Cloud Migrations and GitOps automation to custom web, mobile, and 24/7 enterprise infrastructure maintenance.
             </p>
 
             {/* CTA Buttons */}

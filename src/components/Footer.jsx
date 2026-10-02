@@ -50,7 +50,7 @@ export default function Footer({ onOpenConsultation }) {
               <div className="w-12 h-12 rounded-xl bg-slate-900/90 border border-cyan-500/30 group-hover:border-cyan-400/70 p-1.5 flex items-center justify-center shadow-lg shadow-cyan-500/10 transition-all duration-300">
                 <img
                   src="/assets/meeqat-emblem.png"
-                  alt="Meeqat Technology Brand Logo"
+                  alt="Meeqat Technologies Brand Logo"
                   className="w-full h-full object-contain group-hover:scale-105 transition-transform drop-shadow-[0_0_8px_rgba(6,182,212,0.3)]"
                 />
               </div>
@@ -58,7 +58,7 @@ export default function Footer({ onOpenConsultation }) {
                 <span className="text-xl font-bold tracking-tight text-white flex items-center gap-1.5 font-sans">
                   MEEQAT
                   <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400 font-extrabold tracking-wider">
-                    TECHNOLOGY
+                    TECHNOLOGIES
                   </span>
                 </span>
                 <span className="text-[10px] font-mono tracking-widest uppercase text-slate-400">
@@ -68,7 +68,7 @@ export default function Footer({ onOpenConsultation }) {
             </a>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Meeqattechnology provides full-spectrum IT consulting, Cloud Architecture, DevOps automation, and round-the-clock enterprise infrastructure engineering.
+              Meeqat Technologies provides full-spectrum IT consulting, Cloud Architecture, DevOps automation, and round-the-clock enterprise infrastructure engineering.
             </p>
 
             {/* Direct Contact Details */}
@@ -214,7 +214,7 @@ export default function Footer({ onOpenConsultation }) {
 
         {/* Bottom Bar */}
         <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <p>© {currentYear} Meeqat Technology. Offices in Tindivanam & Krishnagiri, Tamil Nadu. All rights reserved.</p>
+          <p>© {currentYear} Meeqat Technologies. Offices in Tindivanam & Krishnagiri, Tamil Nadu. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="#services" className="hover:text-slate-300">Architecture Services</a>
             <a href="#case-studies" className="hover:text-slate-300">Case Studies</a>
