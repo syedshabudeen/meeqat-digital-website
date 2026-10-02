@@ -10,7 +10,8 @@ import {
   ShoppingBag,
   ArrowRight,
   CheckCircle2,
-  Filter
+  Filter,
+  MapPin
 } from 'lucide-react';
 
 export default function Services({ onSelectService }) {
@@ -170,17 +171,53 @@ export default function Services({ onSelectService }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* SEO-Optimized Section Header with Locations */}
-        <div className="text-center max-w-3xl mx-auto mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-400 text-xs font-mono font-medium mb-4">
-            <span>Specialized IT Consulting & Capabilities</span>
+        {/* Global & Pan-India Enterprise Section Header */}
+        <div className="text-center max-w-4xl mx-auto mb-14">
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-300 text-xs font-mono font-medium mb-4 shadow-sm shadow-cyan-500/10">
+            <Globe className="w-3.5 h-3.5 text-cyan-400" />
+            <span>Enterprise Delivery • Pan-India & Worldwide</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Enterprise IT Services in Pondicherry, Tindivanam & Krishnagiri
+
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-5">
+            Enterprise IT Consulting Across{' '}
+            <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 via-sky-300 to-indigo-400">
+              India & Worldwide
+            </span>
           </h2>
-          <p className="text-base sm:text-lg text-slate-400">
-            Empowering enterprises across South India and the Middle East with custom web & mobile apps, secure cloud migrations, and 24/7 infrastructure operations.
+
+          <p className="text-base sm:text-lg text-slate-400 max-w-3xl mx-auto leading-relaxed mb-8">
+            Engineering high-availability cloud systems, modern web & mobile architectures, and around-the-clock infrastructure SRE operations. Operating dedicated engineering hubs in <strong className="text-slate-200">Tindivanam</strong> & <strong className="text-slate-200">Krishnagiri</strong> (Tamil Nadu) — powering enterprises across <strong className="text-cyan-400">Pan-India</strong>, the <strong className="text-indigo-400">Middle East (GCC)</strong>, and <strong className="text-sky-300">Worldwide</strong>.
           </p>
+
+          {/* Professional Multi-Tier Geographic Coverage Badges */}
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 max-w-3xl mx-auto text-left">
+            <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-cyan-500/30 transition-colors">
+              <div className="flex items-center gap-1.5 text-cyan-400 font-mono text-[11px] font-semibold uppercase tracking-wider mb-1">
+                <MapPin className="w-3.5 h-3.5 text-cyan-400 shrink-0" />
+                <span>Regional Tech Hubs</span>
+              </div>
+              <p className="text-xs text-slate-300 font-medium">Tindivanam • Krishnagiri • Pondicherry</p>
+              <span className="text-[10.5px] text-slate-500 font-mono">Tamil Nadu Operations & Support</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-sky-500/30 transition-colors">
+              <div className="flex items-center gap-1.5 text-sky-400 font-mono text-[11px] font-semibold uppercase tracking-wider mb-1">
+                <Globe className="w-3.5 h-3.5 text-sky-400 shrink-0" />
+                <span>Pan-India Coverage</span>
+              </div>
+              <p className="text-xs text-slate-300 font-medium">Metro & Tier 1/2 Tech Corridors</p>
+              <span className="text-[10.5px] text-slate-500 font-mono">Enterprise Remote & On-Premises</span>
+            </div>
+
+            <div className="p-3 rounded-xl bg-slate-900/60 border border-slate-800/80 hover:border-indigo-500/30 transition-colors">
+              <div className="flex items-center gap-1.5 text-indigo-400 font-mono text-[11px] font-semibold uppercase tracking-wider mb-1">
+                <ShieldCheck className="w-3.5 h-3.5 text-indigo-400 shrink-0" />
+                <span>Worldwide & Middle East</span>
+              </div>
+              <p className="text-xs text-slate-300 font-medium">UAE • Saudi Arabia • Qatar • Global</p>
+              <span className="text-[10.5px] text-slate-500 font-mono">24/7 Follow-the-Sun SRE SLA</span>
+            </div>
+          </div>
         </div>
 
         {/* Category Filter Pills */}

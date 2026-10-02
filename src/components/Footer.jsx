@@ -214,7 +214,7 @@ export default function Footer({ onOpenConsultation }) {
 
         {/* Bottom Bar */}
         <div className="mt-14 pt-8 border-t border-slate-800/80 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
-          <p>© {currentYear} Meeqat Technologies. Offices in Tindivanam & Krishnagiri, Tamil Nadu. All rights reserved.</p>
+          <p>© {currentYear} Meeqat Technologies. Headquartered in Tamil Nadu (Tindivanam & Krishnagiri) • Serving Clients Across Pan-India & Worldwide. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="#services" className="hover:text-slate-300">Architecture Services</a>
             <a href="#case-studies" className="hover:text-slate-300">Case Studies</a>
