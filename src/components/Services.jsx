@@ -170,16 +170,16 @@ export default function Services({ onSelectService }) {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
-        {/* Section Header */}
+        {/* SEO-Optimized Section Header with Locations */}
         <div className="text-center max-w-3xl mx-auto mb-14">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-950/60 border border-cyan-500/30 text-cyan-400 text-xs font-mono font-medium mb-4">
-            <span>Specialized Capabilities</span>
+            <span>Specialized IT Consulting & Capabilities</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-white tracking-tight mb-4">
-            Enterprise IT & Digital Engineering Services
+            Enterprise IT Services in Pondicherry, Tindivanam & Krishnagiri
           </h2>
           <p className="text-base sm:text-lg text-slate-400">
-            From modern web & mobile applications to cloud migrations and 24/7 enterprise infrastructure operations, we engineer reliable digital systems.
+            Empowering enterprises across South India and the Middle East with custom web & mobile apps, secure cloud migrations, and 24/7 infrastructure operations.
           </p>
         </div>
 
@@ -218,7 +218,7 @@ export default function Services({ onSelectService }) {
                     <span className="text-[10px] font-mono uppercase tracking-wider text-slate-400 bg-slate-900/80 px-2 py-1 rounded border border-slate-800">
                       {service.category}
                     </span>
-                  </div>
+                </div>
 
                   {/* Title & Description */}
                   <h3 className="text-lg font-bold text-white mb-2.5 group-hover:text-cyan-300 transition-colors">
